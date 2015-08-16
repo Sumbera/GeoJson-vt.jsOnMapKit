@@ -1,9 +1,9 @@
 //
 //  LoaderUtils.h
-//  SpatialReader
+
 //
 //  Created by Stanislav Sumbera on 3/3/12.
-//  Copyright (c) 2012 Intergraph. All rights reserved.
+
 //
 #import <CommonCrypto/CommonDigest.h>
 #import <Foundation/Foundation.h>

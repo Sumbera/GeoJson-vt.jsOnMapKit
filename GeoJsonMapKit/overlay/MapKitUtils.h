@@ -1,9 +1,9 @@
 //
 //  TileUtils.h
-//  MapKitPro
+
 //
 //  Created by Stanislav Sumbera on 10/24/11.
-//  Copyright 2011 Intergraph. All rights reserved.
+
 //
 
 #import <Foundation/Foundation.h>
