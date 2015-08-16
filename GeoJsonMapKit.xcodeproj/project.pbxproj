@@ -38,7 +38,6 @@
 		5A45B6A71B27016B00E953BE /* Parcels.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Parcels.geojson; sourceTree = "<group>"; };
 		5A6B7BEC1B1E6FE900DFA8A6 /* threestates.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = threestates.geojson; sourceTree = "<group>"; };
 		5ABB17AE1B1F8B0600F47C1C /* MapKitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitUtils.h; sourceTree = "<group>"; };
-		5ABB17AF1B1F8B8B00F47C1C /* WebLoaderUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebLoaderUtils.h; sourceTree = "<group>"; };
 		5ABB17B41B256B6200F47C1C /* ent.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ent.entitlements; sourceTree = "<group>"; };
 		5ABB17B71B25714700F47C1C /* geojson-vt-dev.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "geojson-vt-dev.js"; sourceTree = "<group>"; };
 		5ABB17B91B25760E00F47C1C /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
@@ -154,7 +153,6 @@
 		5ADAEADA1B1E559C00D68ADC /* overlay */ = {
 			isa = PBXGroup;
 			children = (
-				5ABB17AF1B1F8B8B00F47C1C /* WebLoaderUtils.h */,
 				5ABB17AE1B1F8B0600F47C1C /* MapKitUtils.h */,
 				5ADAEADB1B1E559C00D68ADC /* MultiPolygonOverlay.h */,
 				5ADAEADC1B1E559C00D68ADC /* MultiPolygonOverlay.m */,
