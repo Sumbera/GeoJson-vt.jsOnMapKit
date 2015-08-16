@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MapViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+ //    self.window.autoresizesSubviews = YES;
+    MapViewController * mapViewController = [[MapViewController alloc] init];
+    UINavigationController *mainNavCtrl = [[UINavigationController alloc]initWithRootViewController:mapViewController];
+    
+    self.window.rootViewController = mainNavCtrl;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
